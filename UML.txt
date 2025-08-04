@@ -1,0 +1,50 @@
+This file contains a description of the module interactions in PlantUML format.
+You can use an online PlantUML editor (like the one at plantuml.com) to generate a visual diagram from this code.
+
+```plantuml
+@startuml
+skinparam componentStyle uml2
+title Module Dependencies
+
+package "Test Program" {
+  [test_main.f90]
+}
+
+package "Soil Science Library" {
+  component [kind_mod]
+  component [SoilMoistureBalance_mod]
+  component [InfiltrationGreenAmpt_mod]
+  component [SoilTemperatureProfile_mod]
+  component [NitrogenMineralization_mod]
+  component [SoilRespiration_mod]
+  component [BulkDensityCalc_mod]
+  component [SoilWaterRetention_mod]
+  component [EvapotranspirationPenmanMonteith_mod]
+  component [SoilCarbonDecomposition_mod]
+  component [SoilErosionEstimate_mod]
+}
+
+[test_main.f90] ..> [SoilMoistureBalance_mod] : uses
+[test_main.f90] ..> [InfiltrationGreenAmpt_mod] : uses
+[test_main.f90] ..> [SoilTemperatureProfile_mod] : uses
+[test_main.f90] ..> [NitrogenMineralization_mod] : uses
+[test_main.f90] ..> [SoilRespiration_mod] : uses
+[test_main.f90] ..> [BulkDensityCalc_mod] : uses
+[test_main.f90] ..> [SoilWaterRetention_mod] : uses
+[test_main.f90] ..> [EvapotranspirationPenmanMonteith_mod] : uses
+[test_main.f90] ..> [SoilCarbonDecomposition_mod] : uses
+[test_main.f90] ..> [SoilErosionEstimate_mod] : uses
+
+[SoilMoistureBalance_mod] ..> [kind_mod] : uses
+[InfiltrationGreenAmpt_mod] ..> [kind_mod] : uses
+[SoilTemperatureProfile_mod] ..> [kind_mod] : uses
+[NitrogenMineralization_mod] ..> [kind_mod] : uses
+[SoilRespiration_mod] ..> [kind_mod] : uses
+[BulkDensityCalc_mod] ..> [kind_mod] : uses
+[SoilWaterRetention_mod] ..> [kind_mod] : uses
+[EvapotranspirationPenmanMonteith_mod] ..> [kind_mod] : uses
+[SoilCarbonDecomposition_mod] ..> [kind_mod] : uses
+[SoilErosionEstimate_mod] ..> [kind_mod] : uses
+
+@enduml
+```
