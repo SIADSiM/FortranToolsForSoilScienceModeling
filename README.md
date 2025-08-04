@@ -1,4 +1,5 @@
 #  Fortran Tools For Soil Science Modeling
+[![DOI](https://zenodo.org/badge/1032012605.svg)](https://doi.org/10.5281/zenodo.16739609)
 
 This Fortran repository contains a collection of scientific routines for soil science modeling. The modules focus on key processes such as soil moisture balance, infiltration, temperature dynamics, nutrient cycling, and soil respiration. All algorithms are implemented based on peer-reviewed literature and established guidelines to ensure scientific accuracy and reproducibility.
 
