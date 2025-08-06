@@ -1,5 +1,6 @@
 #  Fortran Tools For Soil Science Modeling
 [![DOI](https://zenodo.org/badge/1032012605.svg)](https://doi.org/10.5281/zenodo.16739609)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSIADSiM%2FFortranToolsForSoilScienceModeling.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSIADSiM%2FFortranToolsForSoilScienceModeling?ref=badge_shield)
 
 This Fortran repository contains a collection of scientific routines for soil science modeling. The modules focus on key processes such as soil moisture balance, infiltration, temperature dynamics, nutrient cycling, and soil respiration. All algorithms are implemented based on peer-reviewed literature and established guidelines to ensure scientific accuracy and reproducibility.
 
@@ -85,6 +86,9 @@ This project is licensed under a custom non-commercial license.
 * ❌ **Commercial use is strictly prohibited without a separate license.**
 
 For commercial licensing inquiries, please contact me at ** s i a d s i m @ g m a i l . c o m  **.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSIADSiM%2FFortranToolsForSoilScienceModeling.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSIADSiM%2FFortranToolsForSoilScienceModeling?ref=badge_large)
 
 ## 📑 References
 
